@@ -6,30 +6,30 @@
 
 5. you have to put all the files in single folder
 6. with icons in one folder and remaining files .....
-eg...🤷‍♀️ single folder [ (icon folder) + remaining all the files  ]
-                            ^                             
-                            |                             
-                   all the icons and jpgs ...             
-
-7. after taking these steps ----------> add external libs 
-                                             |-----> mysql connector
-                                             |----->rs2xml.jar
-                                             
-                                             
-8. now it will throw errors 
-    {
-      make data base name - ebs 
-                              |-----> it contain tables (bill,customer,login,meter_info,tax)
-                                                          ^      ^       ^        ^       ^
-                                                          |      |        |       |       |------> col names in table tax [ cost_per_unit, meter_rent, service_charge, service_tax, swacch_bharat_cess, fixed_tax] 
-                                                          |      |        |       |-----> col names in table meter_info [meter_no, meter_loc, meter_type, phasecode, bill_type, days]    
-                                                          |      |        |------>  col names in table login [meter_no, userName, Name, password , user]     
-                                                          |      |-------> col names in table customer [name, meter_no, address, city, state, email, phone]               
-                                                          |------>  col names in table bill [meter_no, month, units, totalBill, status]      
-                                                                          
-                                                        
-      
-9. now run the loginPage.java 
-10. for login and sign up [ do these as you do in sites ]
-
-✌😊  
+7. eg...🤷‍♀️ single folder [ (icon folder) + remaining all the files  ]
+8.                             ^                             
+9.                             |                             
+10.                   all the icons and jpgs ...             
+11.
+12. after taking these steps ----------> add external libs 
+13.                                             |-----> mysql connector
+14.                                              |----->rs2xml.jar
+15.                                             
+16.                                             
+17. . now it will throw errors 
+18.    {
+19'      make data base name - ebs 
+20.                              |-----> it contain tables (bill,customer,login,meter_info,tax)
+21.                                                          ^      ^       ^        ^       ^
+22.                                                          |      |        |       |       |------> col names in table tax [ cost_per_unit, meter_rent,23 23.service_charge, service_tax, swacch_bharat_cess, fixed_tax] 
+24.                                                           |      |        |       |-----> col names in table meter_info [meter_no, meter_loc, meter_type, 25.phasecode, bill_type, days]    
+26.                                                           |      |        |------>  col names in table login [meter_no, userName, Name, password , user]     
+27.                                                           |      |-------> col names in table customer [name, meter_no, address, city, state, email, phone]         28.       
+27.                                                          |------>  col names in table bill [meter_no, month, units, totalBill, status]      
+30.                                                                          
+31.                                                        
+32.      
+33. 9. now run the loginPage.java 
+34. 10. for login and sign up [ do these as you do in sites ]
+35. 
+36. ✌😊  
